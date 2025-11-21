@@ -17,3 +17,10 @@ spec:
         image: gjktnc023433acr.azurecr.io/todo-ui:v1
         ports:
         - containerPort: 80
+        resources:
+          requests:
+            cpu: 100m
+            memory: 100Mi
+          limits:
+            cpu: 200m
+            memory: 200Mi
