@@ -1,0 +1,18 @@
+ 105 kubectl describe ingressclass nginx
+ 106 kubectl get svc
+ 107 kubectl get svc -a
+ 108 kubectl get all
+ 109 kubectl get ns
+ 110 kubectl get services --namespace ingress-nginx -o wide -w ingress-nginx-controller
+ 111 kubectl get services --namespace ingress-nginx -o wide -w ingress-nginx-controller
+ 112 kubectl get services --namespace ingress-nginx -o wide -w ingress-nginx-controller
+ 113 kubectl get pods -n ingress-nginx
+ 114 kubectl logs -n ingress-nginx-controller-6ccdb49bd4-c2vsd
+ 115 kubectl logs -n ingress-nginx ingress-nginx-controller-6ccdb49bd4-c2vsd
+ 116 kubectl logs deployment/todo-get-task-api -n default
+ 117 kubectl logs deployment/todo-add-task-api -n default
+ 118 kubectl get deployment
+ 119 kubectl logs deployment/todo-add-tasks-api -n default
+ 120 kubectl logs deployment/todo-delete-tasks-api -n default
+ 121 kubectl logs deployment/todo-add-tasks-api -n default
+ 122 kubectl logs deployment/todo-add-tasks-api -n default
